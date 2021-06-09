@@ -1,0 +1,121 @@
+*{
+    box-sizing:border-box;
+  }
+  
+  img{
+    max-width:100%;
+  }
+  .container{
+    display:flex;
+    justify-content:center;
+    max-width:1000px;
+    margin:0px auto ;
+    
+   
+    
+    
+    
+  }
+  
+  nav{
+    position:fixed;
+    display:flex;
+    justify-content : center;
+    background-color: #303030 ; /*#FF69B4*/
+    width:100%;
+    left:0;
+    box-shadow:0 5px 15px ;
+  
+    /*#808080 #AFEEEE DC143C*/
+    
+  }
+  .nav-link{
+    
+    list-style-type:none;
+     margin:5px 30px;
+    text-decoration: none;
+    color :white;
+    font-size:25px;
+  }
+  .btn{
+    color:white;
+    margin :80px 10px;
+    padding:0px;
+    display:flex;
+    
+    border-radius:5px;
+    max-width:150px;
+    height:50px;
+    justify-content : center;
+    Text-decoration:none;
+    background-color:navy;
+    box-shadow: 8px 8px 10px #000040;
+    transition:all 0.1s ease;
+  }
+  .btn:active{
+    box-shadow: 0 0 0 #000040;
+    transform:translate(2px,2px);
+  }
+  body{
+    
+    font-family:sans-serif;
+    background-color: #021069;
+    color:white;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+    
+  }
+  body:active{
+    background-image:url(https://img.fotocommunity.com/schoene-traeume-0b05babc-2eb6-4682-a097-f8c7d9c5d9c4.jpg?height=1080);
+    
+  }
+  
+  .About{
+    width:60%;
+    padding:1px 20px 0px 20px;
+    margin:80px 20px 0px;
+    box-shadow:10px 10px 20px ;
+    border:1px solid #020D54;
+    border-radius:5px;
+    
+  }
+  .About h1{
+    text-align:center;
+  }
+  .image{
+    margin-top:80px;
+  }
+  section h1{
+      text-align:center;
+    margin-top:50px;
+    font-size:40px;
+    }
+  form{
+    margin:20px;
+  }
+  form input{
+    display:inline-block;
+    margin:10px;
+    
+    padding:10px;
+    border-style:solid;
+    width:100%;
+    border-radius:5px;
+  }
+  #email{
+    margin-right:20px;
+    font-size:15px;
+    width:300px;
+  }
+  #submit{
+    font-size:15px;
+    width:100px;
+    box-shadow:8px 8px 8px;
+    transition:0.4s;
+  }
+  #submit:active{
+    box-shadow: 0 0 0 ;
+  }
+  @media screen and (min-width: 480px) {
+    
+  }
+  
