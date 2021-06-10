@@ -1,1 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  text-align:center;
+  font-family:'Poppins';
+}
+ body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: linear-gradient(
+      150deg,
+	  rgba(38, 160, 7, 0.6),
+      rgba(7, 160, 135, 0.7)
+      
+    ),
+    url("https://cdn.pixabay.com/photo/2018/07/14/10/09/waterfall-3537232_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+form{
+	
+	max-width:450px;
+	margin:0 auto;
+	box-shadow: 5px 8px 10px gray;
+	padding:30px 20px;
+	border-radius: 2px;
+	background: linear-gradient(
+      35deg,
+      rgba(0,169,255,0.9),
+      rgba(212,0,255,0.9)
+    );
+}
+.form-checkcheck input,
+.form-checkcheck textarea{
+	display: block;
+	width:100%;
+	font-family:inherit;
+	border-radius:2px;
+	padding:10px;
+}
+.form-check{
+	text-align:left;
+	margin-bottom:20px;
+  
+}
+.form-check label{
+	display:block;
+	margin-bottom:5px;
+  
+	
+}
+.form-check select{
+	width:100%;
+	padding:10px;
+	font-family:inherit;
+  border-radius:2px;
+}
+.form-check input[type="radio"]{
+  width:auto;
+  display:inline-block;
+  min-height:1.0rem;
+  min-width: 1.0rem;
+}
+.clue{
+  font-size: 0.9em;
+  
+}
+.form-check input[type="checkbox"]{
+  display:inline-block;
+  width:auto;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+button{
+  width:100%;
+  padding:8px;
+}
 
