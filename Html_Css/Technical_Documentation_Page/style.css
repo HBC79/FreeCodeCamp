@@ -1,1 +1,56 @@
 
+*{
+    box-sizing:border-box;
+  }
+  
+  
+  nav{
+    
+    max-width:250px;
+    background-color:#E8E8E8 ;
+    height:200vh;
+    margin:2px;
+    border:1px solid;
+    box-shadow:25px  15px 20px ;
+  }
+  nav a{
+    display :block;
+    color:black;
+    padding:15px;
+    border:1px solid;
+    text-decoration:none;
+  }
+  
+  body{
+    font-family:Arial;
+    margin:0;
+    display:flex;
+   
+    
+  }
+  main{
+    overflow-y: scroll;
+    background-color:#F0FFFF;
+    flex:1;
+     
+   /* max-heigth:200vh;*/
+  }
+  
+  section{
+    padding:20px;
+    line-height:1.3;
+    
+  }
+  header{
+    font-size:25px;
+    
+  }
+  pre{
+    background-color:#C0C0C0;
+  }
+  @media(max-width:600px){
+    nav{
+      height: 300px;
+      width:100%;
+    }
+  }
